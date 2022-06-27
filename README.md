@@ -1,5 +1,16 @@
 # RecBole example on cookpad blog
 
+## 環境構築
+
+Python 環境が構築されていることを前提とします。
+構築されていない場合には、pyenv などを使って仮想環境を構築することを推奨します。
+
+以下を実行して依存パッケージをインストールしてください。
+
+```shell
+pip install -r requirements.txt
+```
+
 ## xDeepFM
 
 ### `run_recbole` を使った訓練方法。
